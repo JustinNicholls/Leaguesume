@@ -1,0 +1,30 @@
+{
+    "name": "leaguesume",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "awilix": "^3.0.1",
+        "awilix-koa": "^2.1.0",
+        "bristol": "^0.3.3",
+        "dotenv": "^4.0.0",
+        "koa": "^2.4.1",
+        "koa-bodyparser": "^4.2.0",
+        "koa-compress": "^2.0.0",
+        "koa-respond": "^1.0.1",
+        "koa-router": "^7.3.0",
+        "palin": "^2.2.0"
+    },
+    "devDependencies": {
+        "@types/dotenv": "^4.0.2",
+        "@types/koa": "^2.0.43",
+        "@types/koa-bodyparser": "^3.0.26",
+        "@types/koa-compress": "^2.0.8",
+        "@types/koa-router": "^7.0.27"
+    }
+}
