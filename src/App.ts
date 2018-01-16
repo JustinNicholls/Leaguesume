@@ -4,10 +4,9 @@ import * as Koa from "koa";
 import * as bodyParser from "koa-bodyparser";
 import * as compress from "koa-compress";
 import respond from "koa-respond";
-import { errorHandler } from "../middleware/error-handler";
-import { notFoundHandler } from "../middleware/not-found";
-import { configureContainer } from "./libs/container";
 import { logger } from "./libs/logger";
+import { errorHandler } from "./middleware/error-handler";
+import { notFoundHandler } from "./middleware/not-found";
 
 class App {
     private App: Koa = null;
